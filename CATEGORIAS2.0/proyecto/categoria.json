@@ -1,0 +1,810 @@
+{
+    "categorias": [
+        {
+            "nombre": "Animales Acuaticos",
+            "Especies": [
+                {
+                    "nombre": "Tiburón blanco",
+                    "especie": "Carcharodon carcharias",
+                    "hábitat": "Océanos templados y tropicales",
+                    "dieta": "Carnívora",
+                    "tiempo de vida": "30 años",
+                    "origen": "Oceános Atlántico y Pacífico",
+                    "img": "https://static.nationalgeographic.es/files/styles/image_3200/public/290.600x450.jpg?w=1600&h=900"
+                },
+  
+                {
+                    "nombre": "Ballena azul",
+                    "especie": "Balaenoptera musculus",
+                    "hábitat": "Océanos abiertos",
+                    "dieta": "Krill",
+                    "tiempo de vida": "70-90 años",
+                    "origen": "Océano Antártico, Atlántico y Pacífico",
+                    "img": "https://miro.medium.com/v2/resize:fit:820/1*yS6ufU5dvLn8oE5n_nNSEA.jpeg"
+                },
+                {
+                    "nombre": "Delfín nariz de botella",
+                    "especie": "Tursiops truncatus",
+                    "hábitat": "Costas y océanos abiertos",
+                    "dieta": "Peces y calamares",
+                    "tiempo de vida": "40-60 años",
+                    "origen": "Océanos Atlántico y Pacífico",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDOxULdIxe7jSdTcZPNAQWij2mX8g7ESh7RA&s"
+                },
+                {
+                    "nombre": "Medusa aguaviva",
+                    "especie": "Aurelia aurita",
+                    "hábitat": "Océanos y mares costeros",
+                    "dieta": "Plancton",
+                    "tiempo de vida": "6-12 meses",
+                    "origen": "Océanos Atlántico y Pacífico",
+                    "img": "https://billiken.lat/wp-content/uploads/2024/01/image-49-1024x683.png"
+                },
+                {
+                    "nombre": "Pulpo común",
+                    "especie": "Octopus vulgaris",
+                    "hábitat": "Rocas y fondos marinos",
+                    "dieta": "Crustáceos y peces",
+                    "tiempo de vida": "1-2 años",
+                    "origen": "Océanos Atlántico, Pacífico e Índico",
+                    "img": "https://c.files.bbci.co.uk/11F73/production/_120878537_4cfca0d7-2b27-474f-93b7-4c31269c5cdf.jpg"
+                },
+                {
+                    "nombre": "Tortuga marina",
+                    "especie": "Chelonia mydas",
+                    "hábitat": "Playas y océanos tropicales",
+                    "dieta": "Algas marinas",
+                    "tiempo de vida": "50-70 años",
+                    "origen": "Océanos Atlántico y Pacífico",
+                    "img": "https://wwflac.awsassets.panda.org/img/turtles_hero_563115.jpg"
+                },
+                {
+                    "nombre": "Estrella de mar",
+                    "especie": "Asterias rubens",
+                    "hábitat": "Fondos marinos rocosos",
+                    "dieta": "Moluscos y crustáceos",
+                    "tiempo de vida": "5-10 años",
+                    "origen": "Océano Atlántico",
+                    "img": "https://imagenes.eltiempo.com/files/image_1200_600/uploads/2023/11/01/6542c0358d03b.png"
+                },
+                {
+                    "nombre": "Caballito de mar",
+                    "especie": "Hippocampus comes",
+                    "hábitat": "Praderas de algas y arrecifes de coral",
+                    "dieta": "Pequeños crustáceos y plancton",
+                    "tiempo de vida": "1-5 años",
+                    "origen": "Océano Pacífico",
+                    "img": "https://cdn0.bioenciclopedia.com/es/posts/1/4/0/caballito_de_mar_41_orig.jpg"
+                },
+                {
+                    "nombre": "Raya",
+                    "especie": "Dasyatis pastinaca",
+                    "hábitat": "Fondos marinos arenosos",
+                    "dieta": "Peces y moluscos",
+                    "tiempo de vida": "15-20 años",
+                    "origen": "Océano Atlántico y Mediterráneo",
+                    "img": "https://www.cibsub.cat/rcs_gene/Dasyatis_pastinaca003.jpg"
+                },
+                {
+                    "nombre": "Atún rojo",
+                    "especie": "Thunnus thynnus",
+                    "hábitat": "Océanos abiertos",
+                    "dieta": "Peces y calamares",
+                    "tiempo de vida": "15-30 años",
+                    "origen": "Océanos Atlántico y Pacífico",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgUOSxF5ggVSIImvL-KfJS-PP28AzN7g8eNuv37X-lr1TQq3U7N_ZeTFD6Gr8pwvTwigk&usqp=CAU"
+                },
+                {
+                    "nombre": "Anémona de mar",
+                    "especie": "Actinia equina",
+                    "hábitat": "Rocas y corales",
+                    "dieta": "Pequeños peces y plancton",
+                    "tiempo_de_vida": "10-50 años",
+                    "origen": "Océano Atlántico y Mediterráneo",
+                    "img": "https://cdn0.ecologiaverde.com/es/posts/9/8/8/anemonas_de_mar_caracteristicas_tipos_y_alimentacion_3889_600.jpg"
+                },
+                {
+                    "nombre": "Langosta",
+                    "especie": "Homarus americanus",
+                    "hábitat": "Rocas y fondos marinos",
+                    "dieta": "Crustáceos y peces",
+                    "tiempo de vida": "20-50 años",
+                    "origen": "Océano Atlántico",
+                    "img": "https://media.istockphoto.com/id/183374816/es/foto/langosta.jpg?s=612x612&w=0&k=20&c=3NB73vv8k6gJDexZAQ_d0Pq7o65ToIYcXVzJvdQdhAw="
+                },
+                {
+                    "nombre": "Salmón",
+                    "especie": "Salmo salar",
+                    "hábitat": "Ríos y océanos",
+                    "dieta": "Insectos acuáticos y pequeños peces",
+                    "tiempo de vida": "4-6 años",
+                    "origen": "Océano Atlántico",
+                    "img": "https://www.mardenoruega.es/siteassets/species/salmon/header-salmon.jpg?width=1100&height=984&transform=downFill&hash=86d6b717a41a007814708d1cdcb8366d"
+                },
+                {
+                    "nombre": "Pez payaso",
+                    "especie": "Amphiprioninae",
+                    "hábitat": "Arrecifes de coral",
+                    "dieta": "Pequeños invertebrados y zooplancton",
+                    "tiempo de vida": "6-10 años",
+                    "origen": "Océano Pacífico e Índico",
+                    "img": "https://cdn0.bioenciclopedia.com/es/posts/1/7/1/pez_payaso_171_orig.jpg"
+                },
+                {
+                    "nombre": "Tiburón martillo",
+                    "especie": "Sphyrna spp.",
+                    "hábitat": "Océanos tropicales y subtropicales",
+                    "dieta": "Peces y crustáceos",
+                    "tiempo de vida": "20-30 años",
+                    "origen": "Océano Atlántico y Pacífico",
+                    "img": "https://static.a-alvarez.com/img/ybc_blog/post/Tiburon-Limon-Carcharhinus-acronotus_TINIMA20140717_0071_5.jpg"
+                },
+                {
+                    "nombre": "Manta raya",
+                    "especie": "Manta birostris",
+                    "hábitat": "Océanos tropicales y subtropicales",
+                    "dieta": "Plancton y pequeños peces",
+                    "tiempo de vida": "20-25 años",
+                    "origen": "Océano Pacífico e Índico",
+                    "img": "https://media.a24.com/p/f4026eb4b7d11822657042351a160355/adjuntos/296/imagenes/009/294/0009294656/1200x675/smart/mantarayajpg.jpg"
+                },
+                {
+                    "nombre": "Camarón",
+                    "especie": "Penaeus spp.",
+                    "hábitat": "Fondos marinos y estuarios",
+                    "dieta": "Plancton y pequeños invertebrados",
+                    "tiempo de vida": "1-2 años",
+                    "origen": "Océanos Atlántico e Índico",
+                    "img": "https://lh3.googleusercontent.com/proxy/qbz3HIWCEWUfmeYXuTAGR_3j0nYTrr8DpR8RJL-B5oZIFAv6HpgxqabBVXHtBjXGNQK7W8NbRKw_10T8nLu1G0oA-t6fLHlzr1IkbOpp"
+                },
+                {
+                    "nombre": "Mero",
+                    "especie": "Epinephelus morio",
+                    "hábitat": "Arrecifes de coral y fondos rocosos",
+                    "dieta": "Peces y crustáceos",
+                    "tiempo de vida": "10-25 años",
+                    "origen": "Océano Atlántico",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzmAyDTCmFFcPgDHf1mDbeTRKnh5cDKoKPQQ&s"
+                },
+                {
+                    "nombre": "Narval",
+                    "especie": "Monodon monoceros",
+                    "hábitat": "Océano Ártico",
+                    "dieta": "Peces y moluscos",
+                    "tiempo de vida": "30-50 años",
+                    "origen": "Océano Ártico",
+                    "img": "https://as2.ftcdn.net/v2/jpg/00/14/69/73/1000_F_14697367_LehXw3EZrhlfdbWwrMJzkMsMZ3eH1ChC.jpg"
+                },
+                {
+                    "nombre": "Orca",
+                    "especie": "Orcinus orca",
+                    "hábitat": "Océanos y mares costeros",
+                    "dieta": "Peces, calamares y mamíferos marinos",
+                    "tiempo de vida": "50-80 años",
+                    "origen": "Océanos Atlántico y Pacífico",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e5/JumpingOrca.jpg"
+                },
+                {
+                    "nombre": "Pez espada",
+                    "especie": "Xiphias gladius",
+                    "hábitat": "Océanos templados y tropicales",
+                    "dieta": "Peces y calamares",
+                    "tiempo de vida": "9-12 años",
+                    "origen": "Océano Atlántico y Pacífico",
+                    "img": "https://www.delfinultracongelados.es/wp-content/uploads/2024/02/espada_mar-1.jpg"
+                },
+                {
+                    "nombre": "Piraña",
+                    "especie": "Pygocentrus nattereri",
+                    "hábitat": "Ríos y lagos de agua dulce",
+                    "dieta": "Carnívora, principalmente peces",
+                    "tiempo de vida": "10-20 años",
+                    "origen": "Ríos de América del Sur",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjURblFiQKZ1Kk0XnVZ5Ji6brV3I0VTsfpMQ&s"
+                },
+                {
+                    "nombre": "Morsa",
+                    "especie": "Odobenus rosmarus",
+                    "hábitat": "Costas árticas y subárticas",
+                    "dieta": "Moluscos y crustáceos",
+                    "tiempo de vida": "40-50 años",
+                    "origen": "Océano Ártico y Ártico Subártico",
+                    "img": "https://quo.eldiario.es/wp-content/uploads/2019/10/la-carne-de-morsa-puede-ser-peligrosa-para-tu-salud.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Animales Exoticos",
+            "Especies": [
+                {
+                    "nombre": "Jaguar",
+                    "especie": "Panthera onca",
+                    "habitat": "Selvas tropicales y bosques húmedos",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "12-15 años",
+                    "origen": "América Central y del Sur",
+                    "img": "https://static.wikia.nocookie.net/reinoanimalia/images/8/80/Jaguar_hd_full.png/revision/latest/thumbnail/width/360/height/360?cb=20130303143941&path-prefix=es"
+                },
+                {
+                    "nombre": "Panda Gigante",
+                    "especie": "Ailuropoda melanoleuca",
+                    "habitat": "Bosques de bambú",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "15-20 años",
+                    "origen": "China",
+                    "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/86461898/original.jpg"
+                },
+                {
+                    "nombre": "Canguro Rojo",
+                    "especie": "Macropus rufus",
+                    "habitat": "Sabana y zonas áridas",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "6-8 años",
+                    "origen": "Australia",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/5/5d/RedRoo.JPG"
+                },
+                {
+                    "nombre": "Axolote",
+                    "especie": "Ambystoma mexicanum",
+                    "habitat": "Lagos y canales",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "México",
+                    "img": "https://1.bp.blogspot.com/-zLDHLtJVNDQ/VTMO6rzY72I/AAAAAAAABRw/yshBllVZNHc/s1600/axolote.jpg"
+                },
+                {
+                    "nombre": "Tigre de Sumatra",
+                    "especie": "Panthera tigris sumatrae",
+                    "habitat": "Selvas tropicales",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "Sumatra, Indonesia",
+                    "img": "https://static.wikia.nocookie.net/reinoanimalia/images/6/61/Tigre_de_sumatra.png/revision/latest?cb=20140331190700&path-prefix=es"
+                },
+                {
+                    "nombre": "Pangolín",
+                    "especie": "Manis spp.",
+                    "habitat": "Bosques y sabanas",
+                    "dieta": "Insectívoro",
+                    "tiempo_de_vida": "10-20 años",
+                    "origen": "África y Asia",
+                    "img": "https://content.nationalgeographic.com.es/medio/2019/02/13/ejemplar-adulto-de-pangolin_44c1f3e8_1129x679.jpg"
+                },
+                {
+                    "nombre": "Aye-Aye",
+                    "especie": "Daubentonia madagascariensis",
+                    "habitat": "Bosques tropicales",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "10-20 años",
+                    "origen": "Madagascar",
+                    "img": "https://c02.purpledshub.com/uploads/sites/62/2023/10/Aye-aye-guide.jpg"
+                },
+                {
+                    "nombre": "Marmota Alpina",
+                    "especie": "Marmota marmota",
+                    "habitat": "Montañas",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "Alpes europeos",
+                    "img": "https://s3.animalia.bio/animals/photos/full/original/1626px-la-sentinella-della-montagna-04jpg.webp"
+                },
+                {
+                    "nombre": "Cacatúa de Moñudo",
+                    "especie": "Cacatua galerita",
+                    "habitat": "Bosques y áreas abiertas",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "40-60 años",
+                    "origen": "Australia",
+                    "img": "https://media.istockphoto.com/id/157335311/es/foto/cacat%C3%BAa-de-mo%C3%B1o-amarillo-sulfuro-primer-plano.jpg?s=170667a&w=0&k=20&c=1wcaVw6BrPiG1h8JYfgzMScEarFBZjNZ6Ya6XvEOh5k="
+                },
+                {
+                    "nombre": "Peje Rey",
+                    "especie": "Regalecus glesne",
+                    "habitat": "Aguas profundas",
+                    "dieta": "Planctívoro",
+                    "tiempo_de_vida": "15-20 años",
+                    "origen": "Oceános profundos",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kS9-9Mlr2q9YPHV9qKBGjxP8oNqU7alYbg&s"
+                },
+                {
+                    "nombre": "Guanaco",
+                    "especie": "Lama guanicoe",
+                    "habitat": "Zonas áridas y semiáridas",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "15-20 años",
+                    "origen": "Sudamérica",
+                    "img": "https://s3.animalia.bio/animals/photos/small/1x1/1200px-guanaco-wild-llama-26355248058jpg.webp?id=8d95938bd2f4dd46de93643c66bd0ea5"
+                },
+                {
+                    "nombre": "Numbat",
+                    "especie": "Myrmecobius fasciatus",
+                    "habitat": "Bosques de eucaliptos",
+                    "dieta": "Insectívoro",
+                    "tiempo_de_vida": "5-6 años",
+                    "origen": "Australia",
+                    "img": "https://www.sunnysports.com/blog/wp-content/uploads/2017/10/numbat-feature-image.jpg"
+                },
+                {
+                    "nombre": "Okapi",
+                    "especie": "Okapia johnstoni",
+                    "habitat": "Bosques lluviosos",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "20-30 años",
+                    "origen": "República Democrática del Congo",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Okapi2.jpg/1200px-Okapi2.jpg"
+                },
+                {
+                    "nombre": "Jirafa Reticulada",
+                    "especie": "Giraffa reticulata",
+                    "habitat": "Sabana y bosques abiertos",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "20-25 años",
+                    "origen": "Somalia, Kenia, y Etiopía",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Giraffa_camelopardalis_reticulata_01.JPG"
+                },
+                {
+                    "nombre": "Halcón Peregrino",
+                    "especie": "Falco peregrinus",
+                    "habitat": "Áreas urbanas y acantilados",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "15-20 años",
+                    "origen": "Global, exceptuando regiones polares",
+                    "img": "https://www.hogarmania.com/archivos/201705/aves-halcon-peregrino-668x400x80xX.jpg"
+                },
+                {
+                    "nombre": "Quetzal",
+                    "especie": "Pharomachrus mocinno",
+                    "habitat": "Bosques tropicales",
+                    "dieta": "Frugívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "Centroamérica",
+                    "img": "https://desinformemonos.org/wp-content/uploads/2017/11/El-Quetzal.jpg"
+                },
+                {
+                    "nombre": "Iriomote",
+                    "especie": "Prionailurus bengalensis iriomotensis",
+                    "habitat": "Bosques subtropicales",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "Isla Iriomote, Japón",
+                    "img": "https://gatosyrespeto.org/wp-content/uploads/2016/09/gato-iriomote1.jpg?w=712"
+                },
+                {
+                    "nombre": "Kakapo",
+                    "especie": "Strigops habroptilus",
+                    "habitat": "Bosques y zonas arbustivas",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "60-90 años",
+                    "origen": "Nueva Zelanda",
+                    "img": "https://www.lareserva.com/sites/default/files/styles/article_image/public/field/image/kakapopof.jpg?itok=u-PfbIzy"
+                },
+                {
+                    "nombre": "Tamarino de Orelia",
+                    "especie": "Saguinus oedipus",
+                    "habitat": "Bosques tropicales",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "Colombia y Venezuela",
+                    "img": "https://as2.ftcdn.net/v2/jpg/04/33/95/79/1000_F_433957909_ibpcQLrRz8YEwdewTcQcn4eo5zpVU1P3.jpg"
+                },
+                {
+                    "nombre": "Murciélago de Cola de Cera",
+                    "especie": "Carollia perspicillata",
+                    "habitat": "Bosques tropicales",
+                    "dieta": "Frugívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "América Central y del Sur",
+                    "img": "https://www.nublenaturaleza.cl/wp-content/uploads/murcielago0004.jpg"
+                },
+                {
+                    "nombre": "Dodo",
+                    "especie": "Raphus cucullatus",
+                    "habitat": "Islas tropicales",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "Desaparecido",
+                    "origen": "Isla de Mauricio",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7hbVrgHICa8p7-kbpXVJpEMehpuvhdiRTVQ&s"
+                },
+                {
+                    "nombre": "Dragón de Komodo",
+                    "especie": "Varanus komodoensis",
+                    "habitat": "Islas secas",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "20-30 años",
+                    "origen": "Islas Komodo, Indonesia",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3WVbwjIZqbsqSptC6nMmqWAJdV9PQLpcYWg&s"
+                }
+            ]
+        },
+        {
+            "nombre": "Animales Domésticos",
+            "Especies": [
+                {
+                    "nombre": "Perro",
+                    "especie": "Canis lupus familiaris",
+                    "hábitat": "Doméstico",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "Asia, Europa",
+                    "img": "https://i.pinimg.com/564x/d7/e6/50/d7e650e5dd4f9f4cdf3c07a483c83dfb.jpg"
+                },
+                {
+                    "nombre": "Gato",
+                    "especie": "Felis catus",
+                    "hábitat": "Doméstico",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "12-18 años",
+                    "origen": "Egipto",
+                    "img": "https://i.pinimg.com/564x/69/81/ad/6981ad5cbc05bfc13dfa8fc0b50d7fde.jpg"
+                },
+                {
+                    "nombre": "Conejo",
+                    "especie": "Oryctolagus cuniculus",
+                    "hábitat": "Doméstico",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "8-12 años",
+                    "origen": "Europa, África",
+                    "img": "https://i.pinimg.com/564x/e6/f1/ec/e6f1ec2ffc92c22c80c9af61d26a2318.jpg"
+                },
+                {
+                    "nombre": "Hámster",
+                    "especie": "Cricetinae",
+                    "hábitat": "Doméstico",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "2-3 años",
+                    "origen": "Siria",
+                    "img": "https://i.pinimg.com/564x/4a/73/b8/4a73b8834a34aa52a3567451d1b3f174.jpg"
+                },
+                {
+                    "nombre": "Cobaya",
+                    "especie": "Cavia porcellus",
+                    "hábitat": "Doméstico",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "4-6 años",
+                    "origen": "Perú",
+                    "img": "https://i.pinimg.com/564x/32/b9/a0/32b9a0158c8acc11549c9a1b52726d79.jpg"
+                },
+                {
+                    "nombre": "Pájaro",
+                    "especie": "Varía según la especie",
+                    "hábitat": "Doméstico",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "5-15 años",
+                    "origen": "Varía según la especie",
+                    "img": "https://i.pinimg.com/564x/bc/28/e3/bc28e3456a41bbeb6b66ebb7017b3df8.jpg"
+                },
+                {
+                    "nombre": "Tortuga",
+                    "especie": "Testudines",
+                    "hábitat": "Doméstico",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "20-40 años",
+                    "origen": "Varía según la especie",
+                    "img": "https://i.pinimg.com/564x/70/43/01/70430105f6e00779a89b5b23c2c44fc9.jpg"
+                },
+                {
+                    "nombre": "Pez Betta",
+                    "especie": "Betta splendens",
+                    "hábitat": "Doméstico",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "2-4 años",
+                    "origen": "Tailandia, Camboya",
+                    "img": "https://i.pinimg.com/564x/6c/01/6a/6c016aca9ead794b0581360ba82af920.jpg"
+                },
+                {
+                    "nombre": "Rata",
+                    "especie": "Rattus norvegicus",
+                    "hábitat": "Doméstico",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "2-3 años",
+                    "origen": "Asia",
+                    "img": "https://i.pinimg.com/564x/9d/0e/b3/9d0eb30d8839f46b654862f337c755a6.jpg"
+                },
+                {
+                    "nombre": "Chinchilla",
+                    "especie": "Chinchilla lanigera",
+                    "hábitat": "Doméstico",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "Chile",
+                    "img": "https://i.pinimg.com/564x/32/77/58/3277580fc60d5a6f60bed29cfbc29ba8.jpg"
+                },
+                {
+                    "nombre": "Gerbil",
+                    "especie": "Meriones unguiculatus",
+                    "hábitat": "Doméstico",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "2-4 años",
+                    "origen": "Mongolia",
+                    "img": "https://i.pinimg.com/564x/fe/a0/53/fea053f91433f8b2653626d9b4a5f51a.jpg"
+                },
+                {
+                    "nombre": "Serpiente de maíz",
+                    "especie": "Pantherophis guttatus",
+                    "hábitat": "Doméstico",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "Estados Unidos",
+                    "img": "https://i.pinimg.com/564x/13/68/f4/1368f4ecbe95db5af1198b88ab33655f.jpg"
+                },
+                {
+                    "nombre": "Gecko leopardo",
+                    "especie": "Eublepharis macularius",
+                    "hábitat": "Doméstico",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "10-20 años",
+                    "origen": "Pakistán, India",
+                    "img": "https://i.pinimg.com/564x/0f/f3/35/0ff335c8c0267913be2608acaadad3a8.jpg"
+                },
+                {
+                    "nombre": "Iguana",
+                    "especie": "Iguana iguana",
+                    "hábitat": "Doméstico",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "10-20 años",
+                    "origen": "Centroamérica, América del Sur",
+                    "img": "https://i.pinimg.com/564x/25/f8/8f/25f88f817e37e16791aa5462fb817f25.jpg"
+                },
+                {
+                    "nombre": "Erizo",
+                    "especie": "Erinaceus europaeus",
+                    "hábitat": "Doméstico",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "3-7 años",
+                    "origen": "Europa, Asia",
+                    "img": "https://i.pinimg.com/564x/5d/b9/c2/5db9c25d35cbc445437027492692bbae.jpg"
+                },
+                {
+                    "nombre": "Tortuga de caja",
+                    "especie": "Terrapene carolina",
+                    "hábitat": "Doméstico",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "30-40 años",
+                    "origen": "Estados Unidos",
+                    "img": "https://i.pinimg.com/564x/a0/f7/95/a0f7956c735cd20d98f545655b22ce13.jpg"
+                },
+                {
+                    "nombre": "Pez de colores",
+                    "especie": "Carassius auratus",
+                    "hábitat": "Doméstico",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "China",
+                    "img": "https://i.pinimg.com/564x/74/7f/1c/747f1c9556e2246c657ee954870e7d89.jpg"
+                },
+                {
+                    "nombre": "Cacatúa",
+                    "especie": "Cacatua spp.",
+                    "hábitat": "Doméstico",
+                    "dieta": "Omnívoro",
+                    "tiempo_de_vida": "40-60 años",
+                    "origen": "Australia",
+                    "img": "https://i.pinimg.com/564x/31/d8/2c/31d82c601627919d3a47c7d8838d0acf.jpg"
+                },
+                {
+                    "nombre": "Perrito de la pradera",
+                    "especie": "Cynomys spp.",
+                    "hábitat": "Doméstico",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "5-8 años",
+                    "origen": "Estados Unidos",
+                    "img": "https://i.pinimg.com/564x/76/97/73/769773b17208d421541c7d1244367332.jpg"
+                },
+                {
+                    "nombre": "Serpiente de jardín",
+                    "especie": "Natrix natrix",
+                    "hábitat": "Doméstico",
+                    "dieta": "Carnívoro",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "Europa",
+                    "img": "https://i.pinimg.com/564x/b8/7b/ed/b87bed6e1620f93c56629f68d9851a1d.jpg"
+                },
+                {
+                    "nombre": "Rana de cristal",
+                    "especie": "Centrolenidae",
+                    "hábitat": "Doméstico",
+                    "dieta": "Insectívoro",
+                    "tiempo_de_vida": "5-10 años",
+                    "origen": "Centroamérica, América del Sur",
+                    "img": "https://i.pinimg.com/564x/13/ee/8c/13ee8cde9e858cba95a156c816e53772.jpg"
+                },
+                {
+                    "nombre": "Gusano de seda",
+                    "especie": "Bombyx mori",
+                    "hábitat": "Doméstico",
+                    "dieta": "Herbívoro",
+                    "tiempo_de_vida": "6-8 semanas",
+                    "origen": "China",
+                    "img": "https://i.pinimg.com/564x/6d/e3/b4/6de3b4a6f43b8faebca06d408527258a.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Animales en Peligro de Extincion",
+            "Especies": [
+                {
+                    "nombre": "Panda Gigante",
+                    "especie": "Ailuropoda melanoleuca",
+                    "habitat": "Bosques de bambú en las montañas de China",
+                    "dieta": "Principalmente bambú, aunque ocasionalmente comen pequeños animales",
+                    "tiempo_de_vida": "15-20 años en la naturaleza, hasta 30 años en cautiverio",
+                    "origen": "China",
+                    "img": "https://espanol.cgtn.com/news/2023-03-07/1632923043973124098/1678154078268.jpg"
+                },
+                {
+                    "nombre": "Tigre de Sumatra",
+                    "especie": "Panthera tigris sumatrae",
+                    "habitat": "Selvas tropicales en Sumatra, Indonesia",
+                    "dieta": "Carnívoro, se alimenta de ciervos, jabalíes y otros mamíferos",
+                    "tiempo_de_vida": "10-15 años en la naturaleza, hasta 20 años en cautiverio",
+                    "origen": "Indonesia",
+                    "img": "https://zoobarcelona.cat/sites/default/files/animal/2016-12/Panthera%20tigris2.jpg"
+                },
+                {
+                    "nombre": "Rinoceronte de Java",
+                    "especie": "Rhinoceros sondaicus",
+                    "habitat": "Bosques tropicales y pantanos en Java, Indonesia",
+                    "dieta": "Herbívoro, come hojas, brotes y frutas",
+                    "tiempo_de_vida": "30-40 años",
+                    "origen": "Indonesia",
+                    "img": "https://t2.ea.ltmcdn.com/es/razas/7/0/8/rinoceronte-de-java_807_0_orig.jpg"
+                },
+                {
+                    "nombre": "Aye-Aye",
+                    "especie": "Daubentonia madagascariensis",
+                    "habitat": "Bosques tropicales de Madagascar",
+                    "dieta": "Insectívoro, se alimenta de insectos, larvas y frutas",
+                    "tiempo_de_vida": "10-23 años",
+                    "origen": "Madagascar",
+                    "img" : "https://i.natgeofe.com/k/19afec20-c5c8-4136-b306-48d11d7f9446/PHOTO-3-AYE-AYE-FULL.jpg"
+                },
+                {
+                    "nombre": "Saola",
+                    "especie": "Pseudoryx nghetinhensis",
+                    "habitat": "Bosques montañosos en Vietnam y Laos",
+                    "dieta": "Herbívoro, come hojas, brotes y frutas",
+                    "tiempo_de_vida": "15-20 años",
+                    "origen": "Vietnam y Laos",
+                    "img" :"https://i.natgeofe.com/k/19afec20-c5c8-4136-b306-48d11d7f9446/PHOTO-3-AYE-AYE-FULL.jpg"
+                },
+                {
+                    "nombre": "Tortuga Carey",
+                    "especie": "Eretmochelys imbricata",
+                    "habitat": "Arrecifes de coral y zonas costeras tropicales",
+                    "dieta": "Principalmente esponjas marinas, también algas y otros invertebrados",
+                    "tiempo_de_vida": "30-50 años",
+                    "origen": "Océanos tropicales y subtropicales alrededor del mundo",
+                    "img" : "https://aninu.de/cdn/shop/articles/Karettschildkroete_85279d65-1b93-4c0c-a5b0-a53f79578b10-631598.jpg?v=1707297278"
+                },
+                {
+                    "nombre": "Pangolín",
+                    "especie": "Manis spp.",
+                    "habitat": "Bosques tropicales y sabanas en África y Asia",
+                    "dieta": "Insectívoro, se alimenta de termitas y hormigas",
+                    "tiempo_de_vida": "10-20 años",
+                    "origen": "África y Asia",
+                    "img" : " https://aninu.de/cdn/shop/articles/Karettschildkroete_85279d65-1b93-4c0c-a5b0-a53f79578b10-631598.jpg?v=1707297278"
+                },
+                {
+                    "nombre": "Quetzal",
+                    "especie": "Pharomachrus mocinno",
+                    "habitat": "Bosques nubosos en América Central",
+                    "dieta": "Frutas, insectos y pequeños animales",
+                    "tiempo_de_vida": "10-20 años",
+                    "origen": "América Central",
+                    "img" : "https://desinformemonos.org/wp-content/uploads/2017/11/El-Quetzal.jpg"
+                },
+                {
+                    "nombre": "Narval",
+                    "especie": "Monodon monoceros",
+                    "habitat": "Ártico y subártico",
+                    "dieta": "Peces, calamares y crustáceos",
+                    "tiempo_de_vida": "30-50 años",
+                    "origen": "Ártico",
+                    "img" : "https://vevico.wordpress.com/wp-content/uploads/2020/04/a.png?w=607&h=342&crop=1"
+                },
+                {
+                    "nombre": "Dragón de Komodo",
+                    "especie": "Varanus komodoensis",
+                    "habitat": "Islas de Komodo, Rinca y Flores en Indonesia",
+                    "dieta": "Carnívoro, se alimenta de ciervos, jabalíes y aves",
+                    "tiempo_de_vida": "20-30 años",
+                    "origen": "Indonesia",
+                    "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5JgW5l1rxe7oTH6YDBb6llgOEegFRpmS3Cg&s"
+                },
+                {
+                    "nombre": "Okapi",
+                    "especie": "Okapia johnstoni",
+                    "habitat": "Bosques lluviosos en la República Democrática del Congo",
+                    "dieta": "Herbívoro, come hojas, brotes y frutas",
+                    "tiempo_de_vida": "20-30 años",
+                    "origen": "República Democrática del Congo",
+                    "img" : "https://c02.purpledshub.com/uploads/sites/62/2017/10/Okapi_-Mint-Images-Frans-Lanting_Getty-captive-Florida-53c2e56.jpg"
+                },
+                {
+                    "nombre": "Cacatúa de Moñita",
+                    "especie": "Cacatua galerita",
+                    "habitat": "Bosques y áreas abiertas en Australia y las Islas Molucas",
+                    "dieta": "Frutas, semillas y nueces",
+                    "tiempo_de_vida": "40-60 años",
+                    "origen": "Australia y las Islas Molucas",
+                    "img" : "https://s3.animalia.bio/animals/photos/small/1x1/birds-120153909jpeg.webp?id=22502b83233d6c022d35c3c930d09159"
+                    
+                },
+                {
+                    "nombre": "Pez Dragón",
+                    "especie": "Draconettus spp.",
+                    "habitat": "Arrecifes de coral en el Océano Pacífico",
+                    "dieta": "Invertebrados marinos, como crustáceos y pequeños peces",
+                    "tiempo_de_vida": "2-3 años",
+                    "origen": "Océano Pacífico",
+                    "img" : "https://elcomercio.pe/resizer/zZ7y2469WCFWTrcrSVnMm-R7cl0=/1200x1200/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/OUBAYPN4VBD3RO5NXFSN7FTABQ.jpg"
+                },
+                {
+                    "nombre": "Kakapo",
+                    "especie": "Strigops habroptilus",
+                    "habitat": "Bosques de Nueva Zelanda",
+                    "dieta": "Herbívoro, come hojas, frutas y flores",
+                    "tiempo_de_vida": "60-90 años",
+                    "origen": "Nueva Zelanda",
+                    "img" : " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyj8rfw1IAJxU9ih4U5kQIagZg-qHBdoiRrA&s"
+                },
+                {
+                    "nombre": "Lemur de Cola Anillada",
+                    "especie": "Lemur catta",
+                    "habitat": "Bosques secos y espinosos en Madagascar",
+                    "dieta": "Frutas, hojas, flores e insectos",
+                    "tiempo_de_vida": "16-19 años",
+                    "origen": "Madagascar",
+                    "img" :  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGG83My-rMRgh2PHAbIYnWRZJ3vSeE5z54cQ&s"
+                },
+                {
+                    "nombre": "Pez Luna",
+                    "especie": "Mola mola",
+                    "habitat": "Océanos tropicales y templados",
+                    "dieta": "Medusas y otros invertebrados marinos",
+                    "tiempo_de_vida": "10 años",
+                    "origen": "Océanos alrededor del mundo",
+                    "img" : "https://s1.elespanol.com/2023/12/01/enclave-ods/historias/813928653_238072554_1706x1280.jpg"
+                },
+                {
+                    "nombre": "Rana de Cristal",
+                    "especie": "Centrolenidae spp.",
+                    "habitat": "Bosques tropicales en América Central y del Sur",
+                    "dieta": "Insectos y pequeños invertebrados",
+                    "tiempo_de_vida": "10-15 años",
+                    "origen": "América Central y del Sur",
+                    "img" : "https://i0.wp.com/www.actualidadambiental.pe/wp-content/uploads/2023/06/rana-de-cristal-de-huanuco-museo-de-historia-natural-de-unmsm.jpg"
+                },
+                {
+                    "nombre": "Elefante Africano",
+                    "especie": "Loxodonta africana",
+                    "habitat": "Sabana y bosques en África",
+                    "dieta": "Herbívoro, come hierbas, hojas y frutas",
+                    "tiempo_de_vida": "60-70 años",
+                    "origen": "África",
+                    "img" : " https://cdn0.bioenciclopedia.com/es/posts/8/0/9/elefante_africano_908_orig.jpg"
+                },
+                {
+                    "nombre": "Tarsier",
+                    "especie": "Tarsius spp.",
+                    "habitat": "Bosques tropicales en el sudeste asiático",
+                    "dieta": "Insectos, pequeños vertebrados y frutas",
+                    "tiempo_de_vida": "12-20 años",
+                    "origen": "Filipinas, Borneo, y Sulawesi",
+                    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-J16PVCPYoeh4gU_Wti6VqcJr7WA4X5Ru1Q&s"
+                },
+                {
+                    "nombre": "Búho Real",
+                    "especie": "Bubo bubo",
+                    "habitat": "Bosques, montañas y áreas rocosas en Europa y Asia",
+                    "dieta": "Carnívoro, se alimenta de pequeños mamíferos, aves y reptiles",
+                    "tiempo_de_vida": "20-30 años",
+                    "origen": "Europa y Asia",
+                    "img" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiIQzfXxaNKkKrZxZtilFsKJ2sT5JWRhhXU-HNnkPQw_FZYfp6"
+            
+                }
+            ]
+        }
+    ]
+}

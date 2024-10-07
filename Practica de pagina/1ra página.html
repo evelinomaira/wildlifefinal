@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+ </head>
+
+<body>
+    <header>
+        <center>
+          <h1 class="Coral">Asia</h1>   
+        </center>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+            <div id="cronometro"></div>
+        <div id="preguntas"></div>
+        </section>
+        </div>
+
+        <button id="siguienteTrivia" onclick="siguientePregunta()"> Continuar </button>
+
+        
+        <!-- <div class="container">
+            <section id="p0">
+                <h3>¿Cuál es la capital de Japón?</h3>
+                <label>
+                    <input type="radio" value="1" name="p0">Beijín
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p0">India
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p0">Seúl
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p0">Bangkok
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p0">Tokio
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p0">N. A.
+                </label>
+            </section>
+            <section id="p2">
+                <h3>2.- ¿Cuál es el país más grande de Asia por superficie?</h3>
+                <label>
+                    <input type="radio" value="1" name="p1">China
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p1">Japón
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p1">Indonesia
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p1">Corea del Norte
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p1">Mongolia
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p1">N. A.
+                </label>
+            </section>
+            <section id="p2">
+                <h3>3.-  ¿Cuál es el rio más largo de Asia?</h3>
+                <label>
+                    <input type="radio" value="1" name="p2">Ganges
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p2">Yangtsé
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p2">Mekong
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p2">Tigris
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p2">Brahmaputra
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p2">N. A.
+                </label>
+            </section>
+            <section id="p3">
+                <h3>4.- ¿En qué país se encuentra el monte Everest?</h3>
+                <label>
+                    <input type="radio" value="1" name="p3">India
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p3">Nepal
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p3">China
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p3">Bután
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p3">Singapur
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p3">N. A.
+                </label>
+            </section>
+            <section id="p4">
+                <h3>5.- ¿Cuál es el idioma oficial de Tailandia?</h3>
+                <label>
+                    <input type="radio" value="1" name="p4">Chino
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p4">Japonés
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p4">Tailandés
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p4">Urdu
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p4">Hebréo
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p4">N. A.
+                </label>
+            </section>
+            <section id="p5">
+                <h3>6.- El dragón chino es un antiguo símbolo de:</h3>
+                <label>
+                    <input type="radio" value="1" name="p5">El culto de los antepasados
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p5">El agua
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p5">La cosecha primsveral del arroz
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p5">Las enseñanzas de Confucio 
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p5">El fuego
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p5">N. A.
+                </label>
+            </section>
+            <section id="p6">
+                <h3>7.- ¿Cuál es la capital de India? </h3>
+                <label>
+                    <input type="radio" value="1" name="p6">Mumbai
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p6">Calcuta
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p6">Bangalore
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p6">Agra
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p6">Nueva Delhi
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p6">N. A.
+                </label>
+            </section>
+            <section id="p7">
+                <h3>8.- ¿En qué país se encuentra la ciudad de Seúl?</h3>
+                <label>
+                    <input type="radio" value="1" name="p7">Japón
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p7">China
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p7">Corea del Sur
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p7">Vietnam
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p7">Malasia
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p7">N. A.
+                </label>
+            </section>
+            <section id="p8">
+                <h3>9.- ¿Qué país es conocido como “La Tierra del Sol Naciente”? </h3>
+                <label>
+                    <input type="radio" value="1" name="p8">Japón
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p8">China
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p8">Tailandia 
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p8">Myanmar
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p8">Afganistán
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p8">N. A.
+                </label>
+            </section>
+            <section id="p9">
+                <h3>10.- ¿En qué mar se encuentra la isla de Borneo? </h3>
+                <label>
+                    <input type="radio" value="1" name="p9">Mar Arábico
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p9">Mar de Japón
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p9">Mar de China Meridional
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p9">Mar Rojo
+                </label>
+                <label>
+                    <input type="radio" value="5" name="p9">Mar Muerto
+                </label>
+                <label>
+                    <input type="radio" value="6" name="p9">N. A.
+                </label>
+            </section>
+        </div> -->
+
+    </main>
+<footer>
+    <center>
+        <h3><b>Página elaborado por: <br>
+            &copy; Equipo Alfa Buena Maravilla Onda Dinamita Esquadrón Lobo</b></h3>
+    </center>
+</footer>
+
+    
+    <script src="Asia.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo Completo de Posicionamiento de Divs</title>
+  <style>
+    .block {
+      background-color: lightblue;
+      margin: 10px 0;
+      padding: 20px;
+    }
+    .float {
+      float: left;
+      width: 30%;
+      margin: 10px;
+      background-color: lightgreen;
+      padding: 20px;
+    }
+    .clear {
+      clear: both;
+    }
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      background-color: lightgray;
+      padding: 20px;
+    }
+    .flex-item {
+      background-color: lightcoral;
+      padding: 20px;
+      margin: 10px;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Divs uno debajo del otro</h1>
+  <div class="block">
+    Este es un div.
+  </div>
+  <div class="block">
+    Este es otro div.
+  </div>
+  <div class="block">
+    Este es otro div más.
+  </div>
+
+  <h1>Divs uno al lado del otro con float</h1>
+  <div class="float">
+    Este es un div.
+  </div>
+  <div class="float">
+    Este es otro div.
+  </div>
+  <div class="float">
+    Este es otro div más.
+  </div>
+  <div class="clear"></div>
+
+  <h1>Divs uno al lado del otro con Flexbox</h1>
+  <div class="flex-container">
+    <div class="flex-item">Este es un div.</div>
+    <div class="flex-item">Este es otro div.</div>
+    <div class="flex-item">Este es otro div más.</div>
+  </div>
+</body>
+</html>

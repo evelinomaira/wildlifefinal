@@ -1,0 +1,269 @@
+:root {
+    --rojo:rgb(223, 29, 29);
+}
+
+/*el astedisco es para todo, diseño para todo*/
+* {
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    box-sizing: border-box; /* Incluye bordes y padding en el tamaño total del elemento */
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight; /*grosor de la fuente*/
+    font-style: normal; /*para que la fuente no sea cursiva*/
+    outline: none; border: none; /*para eliminar el contorno de los elementos*/
+    transition: .2s linear; /*una pequeña transicion*/
+}
+
+html {
+    font-size: 62.5%; /*tamaño base de la fuente*/  
+    scroll-behavior: smooth; /*desplazamiento al navegar*/
+    scroll-padding-top: 6rem; /*espacio superior al navegar*/
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+}
+
+.inicio {
+    padding: 2rem 9%;
+}
+
+header {
+    position: fixed; /* El header se mantiene fijo en la parte de arriba de la página */
+    top: 0; left: 0; right: 0; /* El header cubre todo el ancho superior */
+    background: #fff; 
+    padding: 2rem 9%; /* Espaciado interno de 2rem arriba/abajo, 9% a los lados */
+    display: flex; /*distribuir y alinear los elementos dentro del contenedor header*/
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span {
+    color: var(--rojo);
+}
+
+header .barra-de-navegación a {
+    font-size: 2rem;
+    padding: 0  1.5rem;
+    color: #666;
+}
+
+header .barra-de-navegación a:hover {
+    color: var(--rojo);
+}
+
+header .iconos a {
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .iconos a:hover {
+    color: var(--rojo);
+}
+
+header #toggler {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem .1.5rem; 
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+
+body {
+    margin: 0; /* Elimina márgenes del body */
+    font-family: "Playwrite DE Grund", cursive; /* Usa la fuente importada */
+    background: url('./patitas\ viaje.jpg') no-repeat center center fixed; /* Cambia la ruta a tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la sección */
+}
+
+main {
+    min-height: 100vh; /* Asegura que el main ocupe al menos toda la altura de la ventana */
+    padding: 2rem 9%; /* Espaciado interno */
+    position: relative; /* Para que los hijos se posicionen correctamente */
+    z-index: 1; /* Asegura que este contenido esté por encima del fondo */
+}
+
+
+#ImprimirR {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px; /* Para que no esté detrás del header */
+    padding: 20px;
+    position: relative; /* Para que los hijos se posicionen correctamente */
+    z-index: 1; /* Para asegurar que este contenido esté por encima del fondo */
+}
+
+
+
+
+
+
+
+
+/* Estilos del contenedor de tarjetas */
+#ImprimirR {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px; /* Para que no esté detrás del header */
+    padding: 20px;
+}
+
+.pais-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px; /* Ancho fijo */
+    transition: all 0.2s ease; /* Suavizar la transición */
+    text-align: center; /* Centrar contenido */
+}
+
+.pais-container.active {
+    height: auto; /* Permitir expansión */
+}
+
+.pais-nombre {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.bandera {
+    width: 100%; /* Imagen se adapta al contenedor */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.animal-info {
+    display: none; /* Ocultar por defecto */
+}
+
+.animal-item {
+    margin: 10px 0;
+}
+
+.animal-item h4 {
+    font-size: 1.2rem;
+}
+
+.animal-item img {
+    width: 100%; /* Ajustar imagen al contenedor */
+    height: auto;
+}
+
+/* Botón "Mostrar Más" */
+.mostrar-mas {
+    background-color:rgba(232, 6, 6, 0.853);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mostrar-mas:hover {
+    background-color: darken(var(--rojo), 10%);
+}
+
+/* Otras reglas de tu diseño */
+.inicio {
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./perritos.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%; /*tamaño base de la fuente*/  
+    }
+
+    header {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header .fa-bars {
+        display: none; /*para que no aparezca el icono de menú */
+    }
+
+    header .barra-de-navegación {
+        position: static; /* Dejar el menú estático */
+        display: flex; /* Aseguramos que se siga mostrando el menú completo */
+        flex-direction: column; /* Para que el menú y el buscador se adapten a la pantalla móvil */
+        background: none; /* Elimina el fondo adicional en el modo móvil */
+        border: none; /* Sin borde en el menú */
+    }
+
+    header .barra-de-navegación a {
+        display: inline-block; /* Mantenemos los enlaces visibles */
+        padding: 1rem; /* Ajustar el padding si es necesario */
+    }
+
+    .barra-busqueda {
+        width: 100%; /* Para que el buscador se ajuste al ancho disponible en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%; /*tamaño base de la fuente*/  
+    }
+}
+
+.barra-busqueda {
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    width: 30rem; /* Ajusta el tamaño según lo desees */
+}
+
+.barra-de-navegación form {
+    display: flex;
+    align-items: center;
+}
+
+.barra-de-navegación button {
+    background-color: var(--rojo);
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.barra-de-navegación button:hover {
+    background-color: var(--rojo) ;
+}

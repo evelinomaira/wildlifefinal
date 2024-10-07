@@ -1,0 +1,159 @@
+:root {
+    --pink: #e84393;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    box-sizing: border-box; 
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight; 
+    font-style: normal; 
+    outline: none; border: none; 
+    transition: .2s linear; 
+}
+
+html {
+    font-size: 62.5%;  
+    scroll-behavior: smooth; 
+    scroll-padding-top: 6rem; 
+    overflow-x: hidden; 
+}
+
+/* Estilos de la barra de navegación */
+header {
+    position: fixed; 
+    top: 0; left: 0; right: 0; 
+    background: #fff; 
+    padding: 2rem 9%; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span {
+    color: var(--pink);
+}
+
+header .barra-de-navegación a {
+    font-size: 2rem;
+    padding: 0  1.5rem;
+    color: #666;
+}
+
+header .barra-de-navegación a:hover {
+    color: var(--pink);
+}
+
+header .iconos a {
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .iconos a:hover {
+    color: var(--pink);
+}
+
+body {
+    margin: 0; /* Elimina márgenes del body */
+    font-family: "Playwrite DE Grund", cursive; /* Usa la fuente importada */
+    background: url('./conejo.jpg') no-repeat center center fixed; /* Cambia la ruta a tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la sección */
+}
+
+
+/* Estilos del contenedor de tarjetas */
+#ImprimirR {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px; /* Para que no esté detrás del header */
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px; /* Ancho fijo */
+    transition: transform 0.2s;
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Apilar elementos verticalmente */
+    align-items: center; /* Centrar elementos horizontalmente */
+}
+
+.tarjeta:hover {
+    transform: scale(1.03);
+}
+
+.tarjeta h3 {
+    font-size: 1.5rem;
+    color: #2c3e50; /* Color del título */
+    margin-bottom: 10px;
+    text-align: center; /* Centra el título */
+}
+
+.tarjeta p {
+    font-size: 1rem;
+    color: #555; /* Color del texto */
+    margin: 5px 0;
+    text-align: center; /* Centra el texto */
+}
+
+.tarjeta img {
+    width: 100%; /* Imagen se adapta al contenedor */
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Otras reglas de tu diseño, si es necesario */
+.inicio {
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./perritos.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Vista de teléfono */
+@media (max-width: 991px) {
+    html {
+        font-size: 55%; 
+    }
+
+    header {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .barra-busqueda {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%; 
+    }
+}
+

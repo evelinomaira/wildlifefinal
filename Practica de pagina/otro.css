@@ -1,0 +1,114 @@
+:root {
+    --pink: #e84393;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    outline: none; 
+    border: none;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    background: #fff; 
+    padding: 2rem 9%; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .barra-busqueda {
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    width: 30rem;
+}
+
+.barra-de-navegación form {
+    display: flex;
+    align-items: center;
+}
+
+.barra-de-navegación button {
+    background-color: var(--pink);
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.barra-de-navegación button:hover {
+    background-color: #d6306e;
+}
+
+.iconos a {
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+.iconos a:hover {
+    color: var(--pink);
+}
+
+main {
+    padding: 6rem 9% 2rem; /* Espacio para el header */
+}
+
+.tarjeta {
+    background: #f8f8f8;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+
+.tarjeta h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.tarjeta p {
+    font-size: 1.4rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .barra-busqueda {
+        width: 100%; /* Ajusta el tamaño en móviles */
+    }
+    header {
+        flex-direction: column; /* Coloca los elementos en columna */
+        align-items: flex-start;
+    }
+}

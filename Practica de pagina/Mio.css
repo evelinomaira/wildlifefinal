@@ -1,0 +1,44 @@
+.header{
+    background-image: url(../imagenes/fondo\ de\ lana.jpg);
+    width: 20%;
+    padding: 10% 608px;
+    background-size:cover;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+   
+}
+.titulo{
+    font-size: 4em;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    font-size: 1.2em;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.titulo {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+}
+
+.subtitulo {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: black;
+}

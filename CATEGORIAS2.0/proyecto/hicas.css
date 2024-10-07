@@ -1,0 +1,317 @@
+:root {
+    --rojo: rgb(223, 29, 29);
+}
+
+/*el astedisco es para todo, diseño para todo*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* Incluye bordes y padding en el tamaño total del elemento */
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    /*grosor de la fuente*/
+    font-style: normal;
+    /*para que la fuente no sea cursiva*/
+    outline: none;
+    border: none;
+    /*para eliminar el contorno de los elementos*/
+    transition: .2s linear;
+    /*una pequeña transicion*/
+}
+
+html {
+    font-size: 62.5%;
+    /*tamaño base de la fuente*/
+    scroll-behavior: smooth;
+    /*desplazamiento al navegar*/
+    scroll-padding-top: 6rem;
+    /*espacio superior al navegar*/
+    overflow-x: hidden;
+    /* Oculta la barra de desplazamiento horizontal */
+}
+
+.inicio {
+    padding: 2rem 9%;
+}
+
+header {
+    position: fixed;
+    /* El header se mantiene fijo en la parte de arriba de la página */
+    top: 0;
+    left: 0;
+    right: 0;
+    /* El header cubre todo el ancho superior */
+    background: #fff;
+    padding: 2rem 9%;
+    /* Espaciado interno de 2rem arriba/abajo, 9% a los lados */
+    display: flex;
+    /*distribuir y alinear los elementos dentro del contenedor header*/
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span {
+    color: var(--rojo);
+}
+
+header .barra-de-navegación a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header .barra-de-navegación a:hover {
+    color: var(--rojo);
+}
+
+header .iconos a {
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .iconos a:hover {
+    color: var(--rojo);
+}
+
+header #toggler {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem .1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    display: none;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./gato\,\ posible\ inicio.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inicio .content {
+    max-width: 50rem;
+}
+
+.inicio .content h3 {
+    font-size: 6rem;
+    color: #333;
+}
+
+.inicio .content span {
+    font-size: 3.5rem;
+    color: var(--rojo);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.inicio .content p {
+    font-size: 1.5rem;
+    color: #999;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+/*vista de telefono*/
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+        /*tamaño base de la fuente*/
+    }
+
+    header {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header .fa-bars {
+        display: none;
+        /*para que no aparezca el icono de menú */
+    }
+
+    header .barra-de-navegación {
+        position: static;
+        /* Dejar el menú estático */
+        display: flex;
+        /* Aseguramos que se siga mostrando el menú completo */
+        flex-direction: column;
+        /* Para que el menú y el buscador se adapten a la pantalla móvil */
+        background: none;
+        /* Elimina el fondo adicional en el modo móvil */
+        border: none;
+        /* Sin borde en el menú */
+    }
+
+    header .barra-de-navegación a {
+        display: inline-block;
+        /* Mantenemos los enlaces visibles */
+        padding: 1rem;
+        /* Ajustar el padding si es necesario */
+    }
+
+    .barra-busqueda {
+        width: 100%;
+        /* Para que el buscador se ajuste al ancho disponible en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+        /*tamaño base de la fuente*/
+    }
+}
+
+.barra-busqueda {
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    width: 30rem;
+    /* Ajusta el tamaño según lo desees */
+}
+
+.barra-de-navegación form {
+    display: flex;
+    align-items: center;
+}
+
+.barra-de-navegación button {
+    background-color: var(--rojo);
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.barra-de-navegación button:hover {
+    background-color: var(--rojo);
+}
+
+
+.datos-curiosos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Cuadraditos responsivos */
+    gap: 1.5rem;
+    padding: 2rem 9%;
+}
+
+.datos-curiosos .cuadro {
+    background: rgba(255, 255, 255, 0.9);
+    /* Fondo blanco semi-transparente */
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Centra el contenido */
+}
+
+.datos-curiosos .cuadro img {
+    max-width: 100%;
+    /* Ajusta la imagen al ancho del cuadro */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    border-radius: 0.5rem;
+    /* Bordes redondeados para la imagen */
+}
+
+.datos-curiosos .cuadro p {
+    margin-top: 0.5rem;
+    /* Espaciado entre la imagen y el texto */
+    font-size: 1.2rem;
+    /* Tamaño del texto */
+}
+
+.datos-curiosos .cuadro img {
+    max-width: 100%;
+    /* Ajusta la imagen al ancho del cuadro */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    border-radius: 0.5rem;
+    /* Bordes redondeados para la imagen */
+    margin-bottom: 0.5rem;
+    /* Espacio entre la imagen y el título */
+}
+
+.datos-curiosos .cuadro h4 {
+    font-size: 1.5rem;
+    /* Ajusta el tamaño según lo desees */
+    color: #333;
+    /* Color del texto */
+    margin: 0.5rem 0;
+    /* Espacio arriba y abajo del título */
+}
+
+footer {
+    background: #333;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    text-align: center;
+    /* Centrar el texto */
+    padding: 1rem 0;
+    /* Espaciado interno */
+    position: relative;
+    /* Para evitar solapamientos */
+    bottom: 0;
+    /* Alinear al fondo */
+    width: 100%;
+    /* Ancho completo */
+}
+
+.footer-content p {
+    margin: 0;
+    /* Eliminar margen */
+    font-size: 1.2rem;
+    /* Tamaño del texto */
+}
+
+.titulo-datos-curiosos {
+    text-align: center;
+    padding: 60px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sabias{
+
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 8rem;
+        
+      
+}
